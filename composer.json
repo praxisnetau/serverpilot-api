@@ -1,0 +1,26 @@
+{
+    "name": "praxisnetau/serverpilot-api",
+    "description": "A wrapper and data model for the ServerPilot API implemented in PHP.",
+    "type": "library",
+    "homepage": "https://github.com/praxisnetau/serverpilot-api",
+    "keywords": ["serverpilot", "php", "api", "wrapper", "model"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Colin Tucker",
+            "role": "Developer",
+            "email": "colin@praxis.net.au",
+            "homepage": "http://www.praxis.net.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "curl/curl": "^1.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ServerPilot\\": "src/"
+        }
+    }
+}

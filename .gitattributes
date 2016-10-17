@@ -1,0 +1,7 @@
+# Docs and tests folders
+/docs export-ignore
+/tests export-ignore
+
+# Continuous integration config files
+/.travis.yml export-ignore
+/.scrutinizer.yml export-ignore
