@@ -687,7 +687,7 @@ class ServerPilotAPI
         
         // Answer URL String:
         
-        return implode('/', $segments);
+        return rtrim(implode('/', $segments), '/');
     }
     
     /**
