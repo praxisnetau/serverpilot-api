@@ -63,7 +63,7 @@ class DatabasesCommand extends BaseCommand
             array(
                 'appid' => (string) $appid,
                 'name' => (string) $name,
-                'user' => (array) $user
+                'user' => (object) $user
             )
         );
     }
@@ -83,7 +83,7 @@ class DatabasesCommand extends BaseCommand
             $this,
             $id,
             array(
-                'user' => (array) $user
+                'user' => (object) $user
             )
         );
     }
