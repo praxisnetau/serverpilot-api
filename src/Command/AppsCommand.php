@@ -65,7 +65,7 @@ class AppsCommand extends BaseCommand
                 'sysuserid' => (string) $sysuserid,
                 'runtime' => (string) $runtime,
                 'domains' => (array) $domains,
-                'wordpress' => (string) $wordpress
+                'wordpress' => (array) $wordpress
             )
         );
     }
